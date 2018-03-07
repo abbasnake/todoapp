@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.grid {
+    border: 1px solid black;
+    display: grid;
+    max-width: 500px;
+    text-align: center;
+    grid-template-columns: 1fr;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.get {
+    /*width: 20vw;*/
+    justify-self: center;
+}
+
+.todos {
+    list-style-type: none;
+}
+
+.add {
+    margin: 5px;
+}

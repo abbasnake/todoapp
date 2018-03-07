@@ -1,0 +1,35 @@
+{
+  "name": "ajax",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "work": "npm-run-all -p watch:*",
+    "watch:server": "nodemon -e js,css",
+    "watch:scss": "node-sass scss/main.scss public/css/style.css -w",
+    "open-browser": "google-chrome http://localhost:3000",
+    "watch:webpack": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-sanitizer": "^1.0.3",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.7"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.17.1",
+    "npm-run-all": "^4.1.2",
+    "postcss": "^6.0.19",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
