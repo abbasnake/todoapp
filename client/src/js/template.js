@@ -3,7 +3,7 @@ import { $, $$ } from "./helpers.js";
 
 const todoTemplate = (todo, id) => {
     return `
-    <li>
+    <li class="todo">
         <form action="api/todo" method="DELETE">
             ${todo}
             <button type="submit" value="${id}" class="delete">X</button>

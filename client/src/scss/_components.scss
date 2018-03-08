@@ -1,0 +1,40 @@
+$default-border-radius: 5px;
+
+.grid {
+    border-radius: $default-border-radius;
+    padding: 20px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.get {
+    border-radius: $default-border-radius;
+    width: 70px;
+    min-width: 60px;
+    justify-self: center;
+    padding: 8px;
+    transition: .2s ease-in-out;
+}
+
+.todos {
+    list-style-type: none;
+}
+
+.todo {
+    border-radius: $default-border-radius;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.delete {
+    border-radius: 20px;
+}
+
+.input {
+    border-radius: $default-border-radius;
+}
+
+.add {
+    border-radius: $default-border-radius;
+    padding: 8px;
+    margin-top: 10px;
+}

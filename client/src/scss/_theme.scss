@@ -1,0 +1,34 @@
+$font-family: 'Work Sans', sans-serif;
+$font-color: #eeeeee;
+
+body {
+    background-color: #eeeeee;
+}
+
+.grid {
+    background-color: #474f48;
+    color: $font-color;
+}
+
+.get {
+    font-family: $font-family;
+}
+
+.todos {
+    font-family: $font-family;
+    font-size: 15px;
+    padding: 0;
+}
+
+.todo {
+
+}
+
+.delete {
+    background-color: #eeeeee;
+    font-family: $font-family;
+}
+
+.add {
+    font-family: $font-family;
+}
