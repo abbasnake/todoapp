@@ -18,4 +18,4 @@ app.set("view engine", "ejs");                          // view engine
 
 app.use(require("./server/controllers/routes")); // all requests go here
 
-app.listen(port, () => console.log(`ajax app listening on port ${port}`)); // listening
+app.listen(port, () => console.log(`todo app listening on port ${port}`)); // listening

@@ -6,11 +6,10 @@
   "scripts": {
     "work": "npm-run-all -p watch:*",
     "watch:server": "nodemon -e js,css",
-    "watch:scss": "node-sass scss/main.scss public/css/style.css -w",
+    "watch:scss": "node-sass client/src/scss/main.scss client/public/style.css -w",
     "open-browser": "google-chrome http://localhost:3000",
     "watch:webpack": "webpack --watch",
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
